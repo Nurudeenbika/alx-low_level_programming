@@ -1,1 +1,1 @@
-This is a detail directory on C programming language
+This is a detail repository on C programming language.
