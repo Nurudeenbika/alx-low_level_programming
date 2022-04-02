@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * main - prints the name of the program followed by a
@@ -11,9 +10,9 @@
  */
 int main(int argc, char *argv[])
 {
-	if (argc < 3)
-		printf("Error\n");
-	else
-		printf("%d\n", (atoi(argv[1]) * atoi(argv[2])));
+	int i;
+
+	for (i = 0; i < argc; i++)
+		printf("%s\n", argv[i]);
 	return (0);
 }
